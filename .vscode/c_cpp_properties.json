@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/python3.10",
+                "/home/lucaseng/.local/lib/python3.10/site-packages/numpy/_core/include",
+                "/usr/include/CL/**",
+                "/usr/include/**"
+
+            ],
+            "defines": [                "CL_HPP_TARGET_OPENCL_VERSION=200",
+            "CL_TARGET_OPENCL_VERSION=200"],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

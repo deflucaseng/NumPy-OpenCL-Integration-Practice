@@ -1,0 +1,12 @@
+pyproject.toml
+setup.py
+matrix_opencl/__init__.py
+matrix_opencl/version.py
+matrix_opencl.egg-info/PKG-INFO
+matrix_opencl.egg-info/SOURCES.txt
+matrix_opencl.egg-info/dependency_links.txt
+matrix_opencl.egg-info/requires.txt
+matrix_opencl.egg-info/top_level.txt
+matrix_opencl/core/__init__.py
+matrix_opencl/core/matrix_add.c
+matrix_opencl/core/numpy_interface.cpp
