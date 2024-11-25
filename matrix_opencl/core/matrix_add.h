@@ -2,10 +2,11 @@
 #define MATRIX_ADD_H
 
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
 
-void matrix_add(double* input_matrix1, int width1, int height1, double* input_matrix2, int width2, int height2, double* output_matrix, int* error);
+	void matrix_add(float *input_matrix1, float *input_matrix2, float *output_matrix, int width, int height, int *error);
 
 #ifdef __cplusplus
 }
